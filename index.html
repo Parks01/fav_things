@@ -13,8 +13,8 @@
 
     <form id="formOne">
       <div class="form-group">
-        <label for="person1">Name:</label>
-        <input id="person1" class="form-control" type="text">
+        <label for="name">Name:</label>
+        <input id="name" class="form-control" type="text">
       </div>
     <div class="form-group">
       <label for="color">What's your favorite color?</label>
@@ -34,12 +34,22 @@
     </div>
     <div class="form-group">
       <label for="food">What's your favorite food?</label>
-      <input id="book" class="form-control" type="text">
+      <input id="food" class="form-control" type="text">
     </div>
     <button type="submit" class="btn">Submit</button>
-
-
     </form>
+
+    <div id="results">
+      <h1><span class="name"></span>, these are your favorite things:</h1>
+      <ol>
+        <li><span class="color"></span></li>
+        <li><span class="movie"></span></li>
+        <li><span class="song"></span></li>
+        <li><span class="book"></span></li>
+        <li><span class="food"></span></li>
+      </ol>
+    </div>
+
     </div>
   </body>
 </html>
